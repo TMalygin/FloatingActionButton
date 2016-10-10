@@ -860,6 +860,10 @@ public class FloatingActionMenu extends ViewGroup {
         return mImageToggle;
     }
 
+    public FloatingActionButton getMenuButton() {
+        return mMenuButton;
+    }
+
     public void setIconToggleAnimatorSet(AnimatorSet toggleAnimatorSet) {
         mIconToggleSet = toggleAnimatorSet;
     }
