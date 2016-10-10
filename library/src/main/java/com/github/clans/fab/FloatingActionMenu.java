@@ -34,9 +34,9 @@ public class FloatingActionMenu extends ViewGroup {
     private static final float OPENED_PLUS_ROTATION_LEFT = -90f - 45f;
     private static final float OPENED_PLUS_ROTATION_RIGHT = 90f + 45f;
 
-    private static final int OPEN_UP = 0;
-    private static final int OPEN_DOWN = 1;
-    private static final int OPEN_CENTER = 2;
+    public static final int OPEN_UP = 0;
+    public static final int OPEN_DOWN = 1;
+    public static final int OPEN_CENTER = 2;
 
     private static final int LABELS_POSITION_LEFT = 0;
     private static final int LABELS_POSITION_RIGHT = 1;
