@@ -198,6 +198,12 @@ public class FloatingActionMenu extends ViewGroup {
         attr.recycle();
     }
 
+    public void setOpenDirection(int direction) {
+        if (mOpenDirection == direction) return;
+        mOpenDirection = direction;
+        requestLayout();
+    }
+
     private void initMenuButtonAnimations(TypedArray attr) {
         int showResId = attr.getResourceId(R.styleable.FloatingActionMenu_menu_fab_show_animation, R.anim.fab_scale_up);
         setMenuButtonShowAnimation(AnimationUtils.loadAnimation(getContext(), showResId));
